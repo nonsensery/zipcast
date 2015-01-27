@@ -1,0 +1,8 @@
+
+# Ignore modules, for now:
+node_modules
+
+# Ignore Sass build output:
+public/.sass-cache
+public/stylesheets/style.css
+
