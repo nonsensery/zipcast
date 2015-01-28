@@ -1,2 +1,17 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+<p><input type="text" maxlength="5" id="zip-field"></p>
+<p><button id="submit-btn" onclick="submitZip(document.getElementById('zip-field').value)">Submit</button></p>
+
+<script>
+
+function submitZip(zip) {
+  if (zip.length !== 5) {
+    return;
+  }
+
+  window.location = "/" + zip;
+}
+
+</script>
