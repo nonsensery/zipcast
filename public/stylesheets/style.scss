@@ -8,3 +8,20 @@ body {
 a {
   color: #00B7FF;
 }
+
+.summary, .temp {
+  font-size: 2em;
+}
+
+.apparent-temp {
+  color: rgba(0,0,0,0.4);
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -200px;
+  width: 200px;
+  text-align: right;
+}
+
+.start-over {
+  margin-top: 2em;
+}
