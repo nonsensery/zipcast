@@ -1,9 +1,10 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
 
 <form onsubmit="submitZip(document.getElementById('zip-field').value); return false">
-  <p><input autofocus type="text" maxlength="5" id="zip-field" placeholder="Enter a U.S. ZIP code"></p>
-  <p><button type="submit">Submit</button></p>
+  <p>Welcome to {{title}}.</p>
+  <p>Enter a U.S. ZIP code to get started:</p>
+  <p><input autofocus type="text" maxlength="5" id="zip-field" size="5"></p>
+  <p><button type="submit" id="submit-btn">Submit</button></p>
 </form>
 
 <script>
